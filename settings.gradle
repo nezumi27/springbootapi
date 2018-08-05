@@ -1,2 +1,4 @@
 rootProject.name = 'springbootapi'
+include 'java'
+findProject(':java')?.name = 'springbootapi'
 
